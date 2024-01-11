@@ -1,113 +1,120 @@
 import Image from 'next/image'
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    return (
+        <main className="">
+            <div className="flex flex-row">
+                <div className="bg-blue-950 h-screen w-80 relative flex-none">
+                    <h1 className="text-6xl m-4">SEMS</h1>
+                    <Image
+                        src="https://avatars.mds.yandex.net/i?id=1a6935097611804deffeccdf9294cdfbc70834af-9152533-images-thumbs&n=13"
+                        width="30"
+                        height="30"
+                        alt="Image"
+                        layout="fixed"
+                        className="inline-block ml-6 mb-2 mr-3"
+                    />
+                    <label>Flight orders</label><br/>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                    <Image
+                        src="https://e7.pngegg.com/pngimages/587/702/png-clipart-computer-icons-clock-font-awesome-clock-angle-time.png"
+                        width="30"
+                        height="30"
+                        alt="Image"
+                        layout="fixed"
+                        className="inline-block ml-6 mb-2 mr-3"
+                    />
+                    <label>Flight history</label><br/>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+                    <Image
+                        src="https://avatars.mds.yandex.net/i?id=9bfd3a16ecf16cf24c23ec4c5576f308f8422598-5254479-images-thumbs&n=13"
+                        width="30"
+                        height="30"
+                        alt="Image"
+                        layout="fixed"
+                        className="inline-block ml-6 mb-2 mr-3"
+                    />
+                    <label>Staff members rating</label><br/>
+                    <button className="w-4/5 border-solid border-2 border-white rounded-lg absolute p-1 bottom-5 left-7">
+                        <Image
+                            src="https://prorisuem.ru/foto/7422/strelka_risunok_44.webp"
+                            width="30"
+                            height="30"
+                            alt="Image"
+                            layout="fixed"
+                            className="inline-block"
+                        />
+                        LOG OUT
+                    </button>
+                </div>
+                <div className="bg-white w-screen">
+                    <header className="flex">
+                        <div className="border-solid border-black border-2 p-2 rounded-xl flex-auto my-5 ml-6">
+                            <Image
+                                src="https://w7.pngwing.com/pngs/254/829/png-transparent-computer-icons-magnifying-glass-magnifier-magnifying-glass.png"
+                                width="30"
+                                height="30"
+                                alt="Image"
+                                layout="fixed"
+                                className="inline-block mr-2"
+                            />
+                            <label className="text-gray-500">Search</label>
+                        </div>
+                        <div className="p-2 rounded-xl flex-auto bg-blue-500 my-5 ml-6 justify-center flex">
+                            <Image
+                                src="https://avatars.mds.yandex.net/i?id=b696cc84e276ca35e1631ddd21bc9ca25643ed22-10160311-images-thumbs&n=13"
+                                width="30"
+                                height="30"
+                                alt="Image"
+                                layout="fixed"
+                                className="inline-block mr-2"
+                            />
+                            <label className="text-white mt-1">TASKS</label>
+                        </div>
+                        <label className="text-gray-600 text-4xl ml-6 flex-auto my-5">12:15</label>
+                        <div className="ml-6 my-7 flex-auto"><Image
+                            src="https://avatars.mds.yandex.net/i?id=0d18ad8a7d1a969fabe8b3ded695d339776bb652-10805353-images-thumbs&n=13"
+                            width="30"
+                            height="30"
+                            alt="Image"
+                            layout="fixed"
+                            className="inline-block"
+                        /></div>
+                    </header>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+                    <hr className="h-px bg-gray-500 border-0"/>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+                    <div className="grid grid-cols-4 gap-4">
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">1</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">2</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">3</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">4</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">5</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">6</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">7</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">8</label>
+                        </div>
+                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
+                            <label className="text-black">9</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    )
 }
