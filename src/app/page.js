@@ -83,34 +83,92 @@ export default function Home() {
                     </header>
 
                     <hr className="h-px bg-gray-500 border-0"/>
-
+                    <h1 className="m-5 text-black text-3xl">Staff members rating</h1>
+                    <div className="flex mb-5">
+                        <div className="bg-gray-400 p-3 rounded-2xl flex-initial ml-4">
+                            <label className="text-white">RATING</label>
+                        </div>
+                        <div className="bg-blue-600 p-3 rounded-2xl flex-initial ml-4">
+                            <label className="text-white">PERSONAL TOTAL</label>
+                            <br/>
+                            <label className="text-white">FLIGHT TIME</label>
+                        </div>
+                    </div>
+                    <div className="relative flex">
+                        <div className="border-solid border-2 border-gray-400 p-3 rounded-xl flex-initial ml-4">
+                            <label className="text-gray-800">Date</label>
+                        </div>
+                        <div className="border-solid border-2 border-gray-400 p-3 rounded-xl flex-initial ml-4">
+                            <label className="text-gray-800">Date</label>
+                        </div>
+                        <div className="bg-blue-600 p-3 rounded-xl flex-initial ml-4">
+                            <label className="text-white">FIND</label>
+                        </div>
+                        <div className="border-solid border-2 border-gray-400 p-3 rounded-xl flex-initial absolute right-4">
+                            <label className="text-black">Total scores: 4,8</label>
+                            <label className="text-black ml-6">Total flight time: 534 minutes</label>
+                        </div>
+                    </div>
                     <div className="grid grid-cols-4 gap-4">
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">1</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">1</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">1</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">1</label>
+                            </div>
                         </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">2</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">2</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">2</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">2</label>
+                            </div>
                         </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">3</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">3</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">3</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">3</label>
+                            </div>
                         </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">4</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">4</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">4</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">4</label>
+                            </div>
                         </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">5</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">5</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">5</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">5</label>
+                            </div>
                         </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">6</label>
-                        </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">7</label>
-                        </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">8</label>
-                        </div>
-                        <div className="border-solid border-black border-2 p-2 rounded-xl m-4">
-                            <label className="text-black">9</label>
+                        <div className="shadow-a m-4 rounded-xl">
+                            <div className="p-2.5 bg-gray-400 rounded-t-xl">
+                                <label className="text-black">6</label>
+                            </div>
+                            <div className="p-2.5 rounded-b-xl">
+                                <label className="text-black">6</label>
+                                <hr className="my-2.5 h-px bg-gray-500 border-0"/>
+                                <label className="text-black">6</label>
+                            </div>
                         </div>
                     </div>
                 </div>
